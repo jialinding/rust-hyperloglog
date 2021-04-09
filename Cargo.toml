@@ -14,5 +14,4 @@ path = "src/hyperloglog/lib.rs"
 
 [dependencies]
 bytecount = "0.6"
-rand = "0.8.0"
 siphasher = "0.3"
