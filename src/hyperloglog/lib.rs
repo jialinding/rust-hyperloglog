@@ -3981,6 +3981,7 @@ static BIAS_DATA: &[&[f64]] = &[
     ],
 ];
 
+#[derive(Clone)]
 pub struct HyperLogLog {
     alpha: f64,
     p: u8,
