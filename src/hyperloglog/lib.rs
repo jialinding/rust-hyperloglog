@@ -3986,7 +3986,7 @@ pub struct HyperLogLog {
     alpha: f64,
     p: u8,
     m: usize,
-    M: Vec<u8>,
+    pub M: Vec<u8>,
     sip: SipHasher13,
 }
 
